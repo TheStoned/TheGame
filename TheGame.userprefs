@@ -1,8 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/TitleGUI.js">
     <Files>
-      <File FileName="Assets\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" Line="12" Column="35" />
+      <File FileName="Assets/Script/PauseScript1.js" Line="190" Column="3" />
+      <File FileName="Assets/Script/TitleGUI.js" Line="18" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
