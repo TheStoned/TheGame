@@ -1,9 +1,9 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/TitleGUI.js">
     <Files>
-      <File FileName="Assets/Script/PauseScript1.js" Line="190" Column="3" />
-      <File FileName="Assets/Script/TitleGUI.js" Line="18" Column="1" />
+      <File FileName="Assets/Script/TitleGUI.js" Line="28" Column="14" />
+      <File FileName="Assets/Script/LoadGame.js" Line="25" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
