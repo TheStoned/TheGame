@@ -1,9 +1,10 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/TitleGUI.js">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Script\TitleGUI.js">
     <Files>
-      <File FileName="Assets/Script/TitleGUI.js" Line="28" Column="14" />
-      <File FileName="Assets/Script/LoadGame.js" Line="25" Column="3" />
+      <File FileName="Assets\Script\SmoothFollow.js" Line="1" Column="1" />
+      <File FileName="Assets\Script\TitleGUI.js" Line="30" Column="18" />
+      <File FileName="Assets\Script\LoadGame.js" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
