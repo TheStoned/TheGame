@@ -1,9 +1,11 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/CharTeller.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Script/Meny.js">
     <Files>
-      <File FileName="Assets/Script/ItemTeller.js" Line="1" Column="1" />
-      <File FileName="Assets/Script/CharTeller.js" Line="1" Column="1" />
+      <File FileName="Assets/Script/ItemTeller.js" Line="8" Column="24" />
+      <File FileName="Assets/Script/CharTeller.js" Line="9" Column="64" />
+      <File FileName="Assets/Script/TitleGUI.js" Line="43" Column="3" />
+      <File FileName="Assets/Script/Meny.js" Line="13" Column="22" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
