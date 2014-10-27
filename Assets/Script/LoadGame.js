@@ -4,19 +4,23 @@ private var height = Screen.height;
 private var width = Screen.width;
 
 function Start() {
-FlashLabel();
+		FlashLabel();
+		LoadLevel();
 }
  
 function FlashLabel() {
-   
-// Fancy pants flash of label on and off   
+     
 	while (1) {
 		displayLabel = true;
 		yield WaitForSeconds(.5);
 		displayLabel = false;
-		yield WaitForSeconds(.5); 
-	}
- 
+		yield WaitForSeconds(.5);
+	}	
+}
+
+function LoadLevel(){
+	var async : AsyncOperation = Application.LoadLevelAsync ("StonedGame");
+	yield async; 
 }
 var customSkin : GUISkin;
 function OnGUI() {
