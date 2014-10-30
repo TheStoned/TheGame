@@ -3,6 +3,7 @@ private var main : boolean = true;
 private var graphic : boolean = false;
 private var displayLabel = false;
 private var teller : int = 5;
+var async : AsyncOperation;
 
 function OnGUI(){
 	GUI.skin = customSkin;
@@ -40,12 +41,23 @@ function GraphicMenu(){
 function MainMenu(){
 	if(GUI.Button(Rect(0, 0, 200, 100), "Play Game!")){
 		GUI.Label(Rect (0, 0, 200, 100), "Loading");
-		Application.LoadLevel ("StonedGame");
 		main = false;
+		LoadLevel();
 	};
 	if(GUI.Button(Rect(0, 100, 200, 100), "Graphic!")){
 		main = false;
 		graphic = true;
 	};
 
+}
+
+function Start () {
+		// Load the level named "MyBigLevel".
+		async = Application.LoadLevelAsync("StonedGame");
+		async.allowSceneActivation = false;
+		Debug.Log ("Loading complete");
+	};
+
+function LoadLevel(){
+		async.allowSceneActivation = true;
 }
