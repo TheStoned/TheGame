@@ -53,7 +53,7 @@ function MainMenu(){
 
 function Start () {
 		// Load the level named "MyBigLevel".
-		async = Application.LoadLevelAsync("StonedGame");
+		async = Application.LoadLevelAsync("LevelTwo");
 		async.allowSceneActivation = false;
 		Debug.Log ("Loading complete");
 	};

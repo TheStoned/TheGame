@@ -50,6 +50,7 @@
      <Compile Include="Assets\Script\CharTeller.js" />
      <Compile Include="Assets\Script\CharTellerMeny.js" />
      <Compile Include="Assets\Script\DiamondSpin.js" />
+     <Compile Include="Assets\Script\FPS.js" />
      <Compile Include="Assets\Script\FlameLight.js" />
      <Compile Include="Assets\Script\ItemTeller.js" />
      <Compile Include="Assets\Script\ItemTellerMeny.js" />
