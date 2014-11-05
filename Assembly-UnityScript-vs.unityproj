@@ -53,7 +53,9 @@
      <Compile Include="Assets\Script\FlameLight.js" />
      <Compile Include="Assets\Script\ItemTeller.js" />
      <Compile Include="Assets\Script\ItemTellerMeny.js" />
+     <Compile Include="Assets\Script\KillScript.js" />
      <Compile Include="Assets\Script\LoadGame.js" />
+     <Compile Include="Assets\Script\LoadingTips.js" />
      <Compile Include="Assets\Script\Meny.js" />
      <Compile Include="Assets\Script\PauseScript.js" />
      <Compile Include="Assets\Script\Rulling.js" />

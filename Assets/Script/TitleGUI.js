@@ -48,6 +48,9 @@ function MainMenu(){
 		main = false;
 		graphic = true;
 	};
+	if(GUI.Button(Rect(0, 200, 200, 100), "Quit!")){
+		Application.Quit();
+	};
 
 }
 

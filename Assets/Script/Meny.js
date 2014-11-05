@@ -48,7 +48,7 @@ GUI.Box (new Rect(0, 0, Screen.width/3, Screen.height/1.5), "Menu");
 			graphicMenu = true;
 		};
 		if (GUI.Button(Rect(0,350, Screen.width/3, 100), "Quit")) {
-			Application.Quit();
+			Application.LoadLevel ("StonedMenu");
 		};
 	};
 
