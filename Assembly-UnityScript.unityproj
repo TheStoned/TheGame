@@ -46,7 +46,6 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\LODSystem\LODSystemPreview.js" />
      <Compile Include="Assets\Script\CharTeller.js" />
      <Compile Include="Assets\Script\CharTellerMeny.js" />
      <Compile Include="Assets\Script\DiamondSpin.js" />
@@ -57,12 +56,9 @@
      <Compile Include="Assets\Script\LoadGame.js" />
      <Compile Include="Assets\Script\Meny.js" />
      <Compile Include="Assets\Script\PauseScript.js" />
-     <Compile Include="Assets\Script\PauseScript1.js" />
+     <Compile Include="Assets\Script\Rulling.js" />
      <Compile Include="Assets\Script\SmoothFollow.js" />
-     <Compile Include="Assets\Script\SmoothFollow1.js" />
      <Compile Include="Assets\Script\TitleGUI.js" />
-     <Compile Include="Assets\Script\adawd.js" />
-     <Compile Include="Assets\Script\test1.js" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />

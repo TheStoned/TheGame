@@ -59,12 +59,6 @@
      <Compile Include="Assets\Editor\Image Effects\SunShaftsEditor.js" />
      <Compile Include="Assets\Editor\Image Effects\TonemappingEditor.js" />
      <Compile Include="Assets\Editor\Image Effects\VignettingEditor.js" />
-     <Compile Include="Assets\LODSystem\Editor\LODCompare.js" />
-     <Compile Include="Assets\LODSystem\Editor\LODEditor.js" />
-     <Compile Include="Assets\LODSystem\Editor\LODHistory.js" />
-     <Compile Include="Assets\LODSystem\Editor\LODSystemEditor.js" />
-     <Compile Include="Assets\LODSystem\Editor\LODTriangle.js" />
-     <Compile Include="Assets\LODSystem\Editor\LODVertex.js" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
      <None Include="Assets\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />

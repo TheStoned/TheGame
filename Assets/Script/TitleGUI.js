@@ -53,7 +53,8 @@ function MainMenu(){
 
 function Start () {
 		// Load the level named "MyBigLevel".
-		async = Application.LoadLevelAsync("LevelTwo");
+		async = Application.LoadLevelAsync("LoadingScreen");
+		Debug.Log(async.progress);
 		async.allowSceneActivation = false;
 		Debug.Log ("Loading complete");
 	};

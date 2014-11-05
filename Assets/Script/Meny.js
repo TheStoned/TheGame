@@ -4,6 +4,12 @@ var customSkin : GUISkin;
 private var teller : int = 5;
 private var graphicMenu : boolean = false;
 
+private var fpController : CharacterMotor;
+fpController = GameObject.Find("First Person Controller").GetComponent(CharacterMotor);
+
+private var rulling : Rulling;
+rulling = GameObject.Find("Sphere").GetComponent(Rulling);
+
 function OnGUI(){
 	GUI.skin = customSkin;
 	GUI.BeginGroup(Rect(Screen.width/3, Screen.height/5, Screen.width/3, Screen.height/1.5));
@@ -18,6 +24,7 @@ function OnGUI(){
 
 function Update(){
 	if(Input.GetKeyUp(KeyCode.Escape)){
+		Pause();
 		Debug.Log("Test1");
 		if (meny == false){
 			meny = true;
@@ -33,14 +40,14 @@ function RestartMenu(){
 if(mainMeny == true){
 
 GUI.Box (new Rect(0, 0, Screen.width/3, Screen.height/1.5), "Menu");
-		if (GUI.Button(Rect(0, 75, Screen.width/3, 50), "Restart")) {
+		if (GUI.Button(Rect(0, 150, Screen.width/3, 100), "Restart")) {
 			Application.LoadLevel (Application.loadedLevel);
 		};
-		if (GUI.Button(Rect(0, 150, Screen.width/3, 50), "Graphic")) {
+		if (GUI.Button(Rect(0, 250, Screen.width/3, 100), "Graphic")) {
 			mainMeny = false;
 			graphicMenu = true;
 		};
-		if (GUI.Button(Rect(0,225, Screen.width/3, 50), "Quit")) {
+		if (GUI.Button(Rect(0,350, Screen.width/3, 100), "Quit")) {
 			Application.Quit();
 		};
 	};
@@ -71,4 +78,14 @@ GUI.Box (new Rect(0, 0, Screen.width/3, Screen.height/1.5), "Menu");
 		graphicMenu = false;
 	};
 };
+}
+
+function Pause(){
+	if(fpController.enabled == true){
+		fpController.enabled = false;
+		rulling.enabled = false;
+	} else {
+		fpController.enabled = true;
+		rulling.enabled = true;
+	}
 }
